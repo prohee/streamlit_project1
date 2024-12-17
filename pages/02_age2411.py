@@ -5,7 +5,7 @@ import seaborn as sns
 try:
     import seaborn as sns
 except ImportError:
-    st.error(\"seaborn 라이브러리가 설치되지 않았습니다. 'pip install seaborn' 명령어로 설치해 주세요.\")
+    st.error("seaborn 라이브러리가 설치되지 않았습니다. 'pip install seaborn' 명령어로 설치해 주세요.")
 
 # Load the CSV file
 @st.cache_data
